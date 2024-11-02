@@ -26,7 +26,7 @@ async function checkQueueByPhone() {
       return;
   }
 
-  const url = `https://api.sheety.co/25ff2e857df4f34f5806ee6b417ce251/data/${day}`;
+  const url = `https://api.sheety.co/25ff2e857df4f34f5806ee6b417ce251/สำเนาของBookingNovenber2024/${day}`;
 
   // แสดงหน้าต่างโหลดข้อมูล
   document.getElementById('loader').style.display = 'flex';
